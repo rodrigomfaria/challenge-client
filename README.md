@@ -4,15 +4,18 @@
 https://app-challenge-client.herokuapp.com/transaction
 
 <h1>Instalação</h1>
-1.Faça o clone deste projeto com git clone https://github.com/rodrigomfaria/challenge-client.git
-2.Entre na pasta do projeto e instale as dependências com npm install
-3.Rode a aplicação com node app
-
+<ul>
+<li>Faça o clone deste projeto com git clone https://github.com/rodrigomfaria/challenge-client.git</li>
+<li>Entre na pasta do projeto e instale as dependências com npm install</li>
+<li>Rode a aplicação com node app</li>
+</ul>
 <h1>Testando a aplicação</h1>
-1. Abra o browser e visite a página http://localhost:4200
+<ul>
+<li>Abra o browser e visite a página http://localhost:4200
+</ul>
 
 <h1>Screenshot</h1>
 
-![print_1](https://user-images.githubusercontent.com/16018918/53410043-6d6eb300-39a1-11e9-8763-63554c55b643.png)
+![print_1](https://user-images.githubusercontent.com/16018918/53410296-2a610f80-39a2-11e9-95f5-16f71ecc3d43.png)
 
-![print_3](https://user-images.githubusercontent.com/16018918/53410181-ce968680-39a1-11e9-8725-7efb201e27a0.png)
+![print_3](https://user-images.githubusercontent.com/16018918/53410304-31881d80-39a2-11e9-9856-9088ef3c8de8.png)
