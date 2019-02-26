@@ -1,13 +1,21 @@
-# challenge-client
+# Controle Financeiro
+App para gestão de receitas e despesas utilizando AngularJS.
 
 <h1>Demonstração</h1>
 https://app-challenge-client.herokuapp.com/transaction
+
+<h1>Requisitos</h1>
+<ul>
+    <li>node js</li>
+    <li>npm</li>
+    <li>angular cli</li>
+</ul>
 
 <h1>Instalação</h1>
 <ul>
 <li>Faça o clone deste projeto com git clone https://github.com/rodrigomfaria/challenge-client.git</li>
 <li>Entre na pasta do projeto e instale as dependências com npm install</li>
-<li>Rode a aplicação com node app</li>
+<li>Rode a aplicação com ng serve</li>
 </ul>
 <h1>Testando a aplicação</h1>
 <ul>
