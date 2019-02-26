@@ -1,0 +1,92 @@
+<div class="card" *ngIf="!hasTransactions()">
+    <div class="card-body">
+        <h5 class="card-title">
+            Nenhuma movimentação no período.
+        </h5>
+
+        <p class="card-text">
+            Cadastre suas movimentações agora
+        </p>
+
+        <button type="button" class="btn btn-primary" (click)="addTransaction()">
+            Nova movimentação
+        </button>
+    </div>
+</div>
+
+<div class="row" *ngIf="hasTransactions()">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-primary" (click)="addTransaction()">
+                            Nova movimentação
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                            <tr>
+                                <th style="width: 50%">
+                                    Descrição
+                                </th>
+
+                                <th style="width: 20%" class="text-center">
+                                    Vencimento
+                                </th>
+
+                                <th style="width: 20%" class="text-right">
+                                    Valor
+                                </th>
+
+                                <th style="width: 10%" class="text-center">
+                                    Ações
+                                </th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr *ngFor="let transaction  of transactions">
+                                <td>
+                                    {{ transaction.description }}
+                                </td>
+
+                                <td class="text-center">
+                                    {{ transaction.date | amDateFormat: 'DD/MM/YYYY' }}
+                                </td>
+
+                                <td class="text-right font-weight-bold"
+                                    [innerHTML]="formatTotalTransaction(transaction)"></td>
+
+                                <td class="text-center">
+                                    <button type="button" class="btn btn-danger btn-sm"
+                                            (click)="deleteTransaction(transaction)">
+                                        Remover
+                                    </button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <div style="display: block">
+                    <canvas baseChart
+                            [data]="getChartData()"
+                            [labels]="getChartLabel()"
+                            [chartType]="getChartType()"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
