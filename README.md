@@ -13,7 +13,7 @@ https://app-challenge-client.herokuapp.com/transaction
 
 <h1>Screenshot</h1>
 
-![print_1](https://user-images.githubusercontent.com/16018918/53409760-90e52e00-39a0-11e9-894c-a1855e7e08f6.png)
+![print_1](https://user-images.githubusercontent.com/16018918/53410043-6d6eb300-39a1-11e9-8763-63554c55b643.png)
 
 ![print_2](https://user-images.githubusercontent.com/16018918/53409767-993d6900-39a0-11e9-8261-8a488666b4c4.png)
 
