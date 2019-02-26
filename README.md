@@ -1,12 +1,12 @@
 # Controle Financeiro
-App para gestão de receitas e despesas utilizando AngularJS.
+App para gestão de receitas e despesas utilizando Angular.
 
 <h1>Demonstração</h1>
 https://app-challenge-client.herokuapp.com/transaction
 
 <h1>Requisitos</h1>
 <ul>
-    <li>node js</li>
+    <li>node</li>
     <li>npm</li>
     <li>angular cli</li>
     <li>API: https://github.com/rodrigomfaria/challenge-api</li>
