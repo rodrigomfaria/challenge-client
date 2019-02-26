@@ -9,10 +9,11 @@ https://app-challenge-client.herokuapp.com/transaction
     <li>node js</li>
     <li>npm</li>
     <li>angular cli</li>
+    <li>API: https://github.com/rodrigomfaria/challenge-api</li>
 </ul>
 
 <h1>Instalação</h1>
-<ul>
+<ul> 
 <li>Faça o clone deste projeto com git clone https://github.com/rodrigomfaria/challenge-client.git</li>
 <li>Entre na pasta do projeto e instale as dependências com npm install</li>
 <li>Rode a aplicação com ng serve</li>
